@@ -18,7 +18,7 @@
   
   /* Theme Colors */
   :root {
-    --green: rgb(0,100,0);
+    --green: #004225;
     --orange: rgb(255,140,0);
     --red: #c0392b;
     --grey: #555;
@@ -32,7 +32,7 @@
   
   /* Header Styles */
   header {
-    background-color: #004225;;
+    background-color: var(--green);;
     color: var(--white);
     position: sticky;
     top: 0;
@@ -113,7 +113,7 @@
   
   /* Footer */
   footer {
-    background-color: #006400;
+    background: var(--green);
     color: var(--white);
     padding: 1em 0;
     text-align: center;
