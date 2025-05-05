@@ -17,7 +17,7 @@
   }
   
   /* Theme Colors */
-:root {
+  :root {
     --green: #2e8b57;
     --orange: rgb(255,140,0);
     --red: #c0392b;
@@ -32,7 +32,7 @@
   
   /* Header Styles */
   header {
-    background: var(--green);
+    background-color: #004225;;
     color: var(--white);
     position: sticky;
     top: 0;
@@ -139,6 +139,7 @@
   
   .orange-box h2, 
   .orange-box h3 {
+    text-align: center;
     margin: 0 0 15px;
     color: var(--white);
   }
@@ -150,6 +151,7 @@
   }
   
   /* Hero Section */
+  
  .hero {
     text-align: center;
     margin-top: 20vh;
@@ -195,8 +197,6 @@ main p {
     margin: 0;
   }
   
- 
-  
   /* Contact Section */
   .contact-wrapper {
     display: flex;
@@ -208,8 +208,9 @@ main p {
   
   .contact-box {
     background: var(--orange);
-    color: var(--grey);
-    padding: 2em 3em;
+    color: var(--white);
+    font-size: 110%;
+    padding: 2rem;
     border-radius: 10px;
     text-align: left;
     width: 100%;
