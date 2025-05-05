@@ -18,7 +18,7 @@
   
   /* Theme Colors */
   :root {
-    --green: #2e8b57;
+    --green: rgb(0,100,0);
     --orange: rgb(255,140,0);
     --red: #c0392b;
     --grey: #555;
